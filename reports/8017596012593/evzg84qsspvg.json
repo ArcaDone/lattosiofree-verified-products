@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "evzg84qsspvg",
+  "barcode": "8017596012593",
+  "source": "scan_barcode_result_report",
+  "displayedSeverity": "SAFE",
+  "productName": "Sfogliatine Glassate",
+  "brands": "Dolciando, Eurospin",
+  "preferredLanguage": "it",
+  "productLanguage": "it",
+  "ingredientsSource": "missing",
+  "ingredientsWithAllergensSource": "missing",
+  "ingredientsText": "",
+  "ingredientsTextWithAllergens": "",
+  "allergens": "",
+  "labels": "en:no-colorings",
+  "labelsTags": [
+    "en:no-colorings"
+  ],
+  "analysisText": "Sfogliatine Glassate en:no-colorings [en:no-colorings] [en:no-colorings]",
+  "milkSignals": [],
+  "traceSignals": [],
+  "lactoseFreeSignals": [],
+  "beerDetected": false,
+  "tracesFromIngredients": "",
+  "createdAtMillis": 1776609618985,
+  "email": "anonimo",
+  "userId": "",
+  "message": "User reported barcode classification as potentially incorrect"
+}

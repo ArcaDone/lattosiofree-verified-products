@@ -1,0 +1,208 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schemas/product.v1.json",
+  "title": "Verified Product Record",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "barcode",
+    "productName",
+    "brands",
+    "language",
+    "status",
+    "classification",
+    "signals",
+    "ingredients",
+    "allergens",
+    "sources",
+    "review"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "type": "integer",
+      "const": 1
+    },
+    "barcode": {
+      "type": "string",
+      "minLength": 1
+    },
+    "productName": {
+      "type": "string",
+      "minLength": 1
+    },
+    "brands": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "language": {
+      "type": "string",
+      "minLength": 2
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "reported",
+        "supported",
+        "verified"
+      ]
+    },
+    "classification": {
+      "type": "object",
+      "required": [
+        "severity",
+        "reason"
+      ],
+      "properties": {
+        "severity": {
+          "type": "string",
+          "enum": [
+            "SAFE",
+            "TRACES",
+            "CONTAINS",
+            "UNKNOWN"
+          ]
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "signals": {
+      "type": "object",
+      "required": [
+        "contains",
+        "traces",
+        "lactoseFree"
+      ],
+      "properties": {
+        "contains": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "traces": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "lactoseFree": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "ingredients": {
+      "type": "object",
+      "required": [
+        "rawText",
+        "sourceType",
+        "sourceConfidence"
+      ],
+      "properties": {
+        "rawText": {
+          "type": "string"
+        },
+        "sourceType": {
+          "type": "string",
+          "enum": [
+            "packaging_photo_verified",
+            "manufacturer_source",
+            "supporting_web_source",
+            "community_report",
+            "user_report"
+          ]
+        },
+        "sourceConfidence": {
+          "type": "string",
+          "enum": [
+            "low",
+            "medium",
+            "high"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "allergens": {
+      "type": "object",
+      "required": [
+        "contains",
+        "mayContain"
+      ],
+      "properties": {
+        "contains": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "mayContain": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "type"
+        ],
+        "properties": {
+          "type": {
+            "type": "string"
+          },
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "review": {
+      "type": "object",
+      "required": [
+        "reviewStatus",
+        "reviewedBy"
+      ],
+      "properties": {
+        "reviewStatus": {
+          "type": "string",
+          "enum": [
+            "needs_review",
+            "needs_packaging_verification",
+            "approved"
+          ]
+        },
+        "reviewedBy": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,119 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schemas/report.v1.json",
+  "title": "Incoming Barcode Report",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "id",
+    "barcode",
+    "source",
+    "displayedSeverity",
+    "productName",
+    "analysisText",
+    "createdAtMillis"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "type": "integer",
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "barcode": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source": {
+      "type": "string",
+      "minLength": 1
+    },
+    "displayedSeverity": {
+      "type": "string",
+      "enum": [
+        "SAFE",
+        "TRACES",
+        "CONTAINS",
+        "UNKNOWN"
+      ]
+    },
+    "productName": {
+      "type": "string"
+    },
+    "brands": {
+      "type": "string"
+    },
+    "preferredLanguage": {
+      "type": "string"
+    },
+    "productLanguage": {
+      "type": "string"
+    },
+    "ingredientsSource": {
+      "type": "string"
+    },
+    "ingredientsWithAllergensSource": {
+      "type": "string"
+    },
+    "ingredientsText": {
+      "type": "string"
+    },
+    "ingredientsTextWithAllergens": {
+      "type": "string"
+    },
+    "allergens": {
+      "type": "string"
+    },
+    "labels": {
+      "type": "string"
+    },
+    "labelsTags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "analysisText": {
+      "type": "string"
+    },
+    "milkSignals": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "traceSignals": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "lactoseFreeSignals": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "beerDetected": {
+      "type": "boolean"
+    },
+    "tracesFromIngredients": {
+      "type": "string"
+    },
+    "createdAtMillis": {
+      "type": "integer"
+    },
+    "email": {
+      "type": "string"
+    },
+    "userId": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}

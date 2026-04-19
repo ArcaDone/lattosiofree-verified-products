@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "barcode": "8017596012593",
+  "productName": "Sfogliatine Glassate",
+  "brands": [
+    "Dolciando",
+    "Eurospin"
+  ],
+  "language": "it",
+  "status": "supported",
+  "classification": {
+    "severity": "CONTAINS",
+    "reason": "milk ingredient found in supporting source"
+  },
+  "signals": {
+    "contains": [
+      "skimmed milk powder",
+      "milk"
+    ],
+    "traces": [
+      "nuts"
+    ],
+    "lactoseFree": []
+  },
+  "ingredients": {
+    "rawText": "Soft wheat flour, Vegetable margarine [vegetable oils and fats (palm and sunflower), water, emulsifier: E471, salt, acidity regulator: E330, flavourings], Confectioner's glaze 25% (sugar, egg white), Apricot-flavored decoration 2% (glucose-fructose syrup, sugar, apricot puree 20%, water, stabiliser: D1422, gelling agent: E440, acidity regulator: E330, flavourings), Skimmed milk powder, Salt, Flavourings.",
+    "sourceType": "supporting_web_source",
+    "sourceConfidence": "medium"
+  },
+  "allergens": {
+    "contains": [
+      "wheat",
+      "egg",
+      "milk"
+    ],
+    "mayContain": [
+      "nuts"
+    ]
+  },
+  "sources": [
+    {
+      "type": "user_report",
+      "id": "evzg84qsspvg"
+    },
+    {
+      "type": "supporting_web_source",
+      "name": "Amazon product listing"
+    }
+  ],
+  "notes": [
+    "Open Food Facts response had no ingredients at review time.",
+    "Supporting source explicitly mentions skimmed milk powder."
+  ],
+  "review": {
+    "reviewStatus": "needs_packaging_verification",
+    "reviewedBy": "arcadone"
+  }
+}
