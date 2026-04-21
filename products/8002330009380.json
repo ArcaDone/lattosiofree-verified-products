@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "barcode": "8002330009380",
+  "productName": "Biscotti Petit",
+  "brands": [
+    "Esselunga Petit",
+    "Esselunga"
+  ],
+  "language": "it",
+  "status": "verified",
+  "classification": {
+    "severity": "CONTAINS",
+    "reason": "milk ingredient found on packaging photo"
+  },
+  "signals": {
+    "contains": [
+      "latte scremato in polvere",
+      "milk"
+    ],
+    "traces": [
+      "frutta a guscio",
+      "senape",
+      "soia"
+    ],
+    "lactoseFree": []
+  },
+  "ingredients": {
+    "rawText": "Farina di grano tenero tipo 00 italiano (62%), zucchero, olio di semi di girasole, amido (frumento), latte scremato in polvere, sciroppo di glucosio-fruttosio, estratto di malto d'orzo e mais, uova fresche italiane da allevamento a terra, agenti lievitanti: carbonato acido di ammonio, carbonato acido di sodio, tartrato monopotassico; sale, emulsionante: lecitina di girasole; aromi. Puo contenere tracce di frutta a guscio, senape e soia.",
+    "sourceType": "packaging_photo_verified",
+    "sourceConfidence": "high"
+  },
+  "allergens": {
+    "contains": [
+      "frumento",
+      "orzo",
+      "uova",
+      "milk"
+    ],
+    "mayContain": [
+      "frutta a guscio",
+      "senape",
+      "soia"
+    ]
+  },
+  "sources": [
+    {
+      "type": "user_report",
+      "name": "WhatsApp Image 2026-04-21 at 17.11.00.jpeg"
+    },
+    {
+      "type": "supporting_web_source",
+      "name": "Open Food Facts API"
+    }
+  ],
+  "notes": [
+    "Open Food Facts response listed no milk allergens or traces at review time.",
+    "Packaging photo explicitly shows latte scremato in polvere as an ingredient."
+  ],
+  "review": {
+    "reviewStatus": "approved",
+    "reviewedBy": "arcadone"
+  }
+}
