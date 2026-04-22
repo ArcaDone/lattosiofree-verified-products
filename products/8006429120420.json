@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "barcode": "8006429120420",
+  "productName": "Prosciutto cotto affettato - Coscia di suino intera",
+  "brands": [
+    "Motta Barlassina"
+  ],
+  "language": "it",
+  "status": "verified",
+  "classification": {
+    "severity": "SAFE",
+    "reason": "milk derivatives free claim found on packaging photo"
+  },
+  "signals": {
+    "contains": [],
+    "traces": [],
+    "lactoseFree": [
+      "senza derivati del latte"
+    ]
+  },
+  "ingredients": {
+    "rawText": "Carne di suino 85%, acqua, sale, destrosio, amido, stabilizzante: E407, aromi, antiossidante: E316.",
+    "sourceType": "packaging_photo_verified",
+    "sourceConfidence": "high"
+  },
+  "allergens": {
+    "contains": [],
+    "mayContain": []
+  },
+  "sources": [
+    {
+      "type": "user_report",
+      "name": "Screenshot 2026-04-22 at 09.50.31.png"
+    }
+  ],
+  "notes": [
+    "Packaging claim reports senza glutine.",
+    "Packaging claim reports senza derivati del latte."
+  ],
+  "review": {
+    "reviewStatus": "approved",
+    "reviewedBy": "arcadone"
+  }
+}
