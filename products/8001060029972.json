@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "barcode": "8001060029972",
+  "productName": "Pesto alla Genovese 4xMe",
+  "brands": [
+    "Saclà"
+  ],
+  "language": "it",
+  "status": "supported",
+  "classification": {
+    "severity": "CONTAINS",
+    "reason": "milk ingredients found in user-provided ingredient list"
+  },
+  "signals": {
+    "contains": [
+      "siero di latte",
+      "formaggi (latte)",
+      "sieroproteine del latte",
+      "aromi naturali (latte)",
+      "milk"
+    ],
+    "traces": [
+      "altra frutta a guscio",
+      "arachidi"
+    ],
+    "lactoseFree": []
+  },
+  "ingredients": {
+    "rawText": "Olio di semi di girasole, basilico 34%, siero di LATTE, formaggi 1,9% (LATTE) (formaggio, Parmigiano Reggiano DOP), ANACARDI, sale, sciroppo di glucosio, sieroproteine del LATTE, patate fiocchi, aromi naturali (LATTE), aglio 0,1%, correttore di acidita: acido lattico, spezie. Puo contenere tracce di altra frutta a guscio o arachidi. Senza glutine.",
+    "sourceType": "user_report",
+    "sourceConfidence": "medium"
+  },
+  "allergens": {
+    "contains": [
+      "milk",
+      "anacardi"
+    ],
+    "mayContain": [
+      "altra frutta a guscio",
+      "arachidi"
+    ]
+  },
+  "sources": [
+    {
+      "type": "user_report",
+      "name": "User-provided ingredient transcription"
+    }
+  ],
+  "notes": [
+    "User-provided text states senza glutine.",
+    "Classification is based on transcribed ingredients and should be upgraded to verified only with packaging or manufacturer evidence."
+  ],
+  "review": {
+    "reviewStatus": "needs_packaging_verification",
+    "reviewedBy": "arcadone"
+  }
+}

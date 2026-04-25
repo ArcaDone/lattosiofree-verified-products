@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "barcode": "8410034076018",
+  "productName": "TOKKE ORIGINAL",
+  "brands": [
+    "Chocolates Valor",
+    "Valor"
+  ],
+  "language": "es",
+  "status": "supported",
+  "classification": {
+    "severity": "CONTAINS",
+    "reason": "milk ingredients found in user-provided ingredient list"
+  },
+  "signals": {
+    "contains": [
+      "leche desnatada en polvo",
+      "lactosuero en polvo",
+      "grasa de leche",
+      "milk"
+    ],
+    "traces": [],
+    "lactoseFree": []
+  },
+  "ingredients": {
+    "rawText": "Chocolate con leche (43%) [Azucar, manteca de cacao, LECHE desnatada en polvo, pasta de cacao, LACTOSUERO en polvo, grasa de LECHE, pasta de AVELLANAS, emulgentes: lecitina de SOJA y E-476, aroma], azucar, harina de TRIGO, grasas vegetales parcialmente hidrogenadas (palma), arroz inflado (6%) [harina de arroz, harina de TRIGO, aceite de palma, gluten de TRIGO, azucar, malta de TRIGO, dextrosa, sal], LACTOSUERO en polvo, cacao desgrasado (2,5%), pasta de AVELLANAS, LECHE desnatada en polvo, emulgente: lecitina de SOJA, gasificante: bicarbonato de sodio, aromas.",
+    "sourceType": "user_report",
+    "sourceConfidence": "medium"
+  },
+  "allergens": {
+    "contains": [
+      "milk",
+      "avellanas",
+      "soja",
+      "trigo"
+    ],
+    "mayContain": []
+  },
+  "sources": [
+    {
+      "type": "user_report",
+      "name": "User-provided ingredient transcription"
+    }
+  ],
+  "notes": [
+    "Classification is based on transcribed ingredients and should be upgraded to verified only with packaging or manufacturer evidence."
+  ],
+  "review": {
+    "reviewStatus": "needs_packaging_verification",
+    "reviewedBy": "arcadone"
+  }
+}
