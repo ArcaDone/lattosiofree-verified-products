@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "barcode": "8033256047903",
+  "productName": "Sugo allo Scoglio",
+  "brands": [
+    "Deco",
+    "Biffi Che Sugo!"
+  ],
+  "language": "it",
+  "status": "supported",
+  "classification": {
+    "severity": "TRACES",
+    "reason": "may contain milk claim found in supporting source"
+  },
+  "signals": {
+    "contains": [],
+    "traces": [
+      "latte"
+    ],
+    "lactoseFree": []
+  },
+  "ingredients": {
+    "rawText": "Vongole (7,2%), calamari (6,4%), gamberetti (3,2%), pomodoro, olio di oliva, aglio, prezzemolo, vino bianco. Puo contenere latte, frutta a guscio, arachidi, soia, uova, sedano e pesce. Senza glutine.",
+    "sourceType": "supporting_web_source",
+    "sourceConfidence": "medium"
+  },
+  "allergens": {
+    "contains": [
+      "molluschi",
+      "crostacei",
+      "solfiti"
+    ],
+    "mayContain": [
+      "latte",
+      "frutta a guscio",
+      "arachidi",
+      "soia",
+      "uova",
+      "sedano",
+      "pesce"
+    ]
+  },
+  "sources": [
+    {
+      "type": "user_report",
+      "id": "v34fdc6vb5bb",
+      "name": "scan_barcode_contribution_report"
+    },
+    {
+      "type": "supporting_web_source",
+      "name": "Deco product information gathered during review"
+    }
+  ],
+  "notes": [
+    "Displayed severity in the app was SAFE, but supporting product information reports may contain milk.",
+    "Record is supported rather than verified because the milk trace warning was not confirmed from a readable packaging ingredient photo in this review."
+  ],
+  "review": {
+    "reviewStatus": "needs_packaging_verification",
+    "reviewedBy": "arcadone"
+  }
+}

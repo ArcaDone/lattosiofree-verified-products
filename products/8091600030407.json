@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "barcode": "8091600030407",
+  "productName": "Stracchino Senza Lattosio Alta Digeribilita",
+  "brands": [
+    "Latteria Soligo"
+  ],
+  "language": "it",
+  "status": "verified",
+  "classification": {
+    "severity": "SAFE",
+    "reason": "lactose-free claim found on packaging photo"
+  },
+  "signals": {
+    "contains": [
+      "latte delattosato",
+      "crema di latte delattosata",
+      "milk"
+    ],
+    "traces": [],
+    "lactoseFree": [
+      "senza lattosio",
+      "latte delattosato",
+      "crema di latte delattosata"
+    ]
+  },
+  "ingredients": {
+    "rawText": "Ingredienti: latte delattosato, crema di latte delattosata, sale, caglio. Senza conservanti aggiunti.",
+    "sourceType": "packaging_photo_verified",
+    "sourceConfidence": "high"
+  },
+  "allergens": {
+    "contains": [
+      "milk"
+    ],
+    "mayContain": []
+  },
+  "sources": [
+    {
+      "type": "user_report",
+      "id": "2goh9zedfmtz",
+      "name": "scan_barcode_not_found_contribution_report"
+    },
+    {
+      "type": "supporting_web_source",
+      "name": "Open Food Facts product page"
+    }
+  ],
+  "notes": [
+    "Barcode was not found by the scan flow, but packaging photos clearly identify the product and ingredients.",
+    "Product contains milk ingredients, but they are explicitly delactosed and the front packaging claims senza lattosio."
+  ],
+  "review": {
+    "reviewStatus": "approved",
+    "reviewedBy": "arcadone"
+  }
+}

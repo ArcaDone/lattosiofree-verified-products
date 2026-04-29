@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "barcode": "4056489259008",
+  "productName": "White Chocolate Marshmallows Flavour Frappe",
+  "brands": [
+    "McEnnedy",
+    "Lidl"
+  ],
+  "language": "it",
+  "status": "verified",
+  "classification": {
+    "severity": "CONTAINS",
+    "reason": "milk ingredients found on packaging photo"
+  },
+  "signals": {
+    "contains": [
+      "siero di latte dolce in polvere",
+      "latte scremato in polvere",
+      "aromi naturali (contengono latte)",
+      "milk"
+    ],
+    "traces": [],
+    "lactoseFree": []
+  },
+  "ingredients": {
+    "rawText": "Ingredienti: zucchero, sciroppo di glucosio, siero di latte dolce in polvere, destrosio, latte scremato in polvere, aromi naturali (contengono latte), aroma naturale di cacao con altri aromi naturali, 0,5% caffe solubile in polvere, addensante: gomma di xanthano; sale, colorante: caroteni.",
+    "sourceType": "packaging_photo_verified",
+    "sourceConfidence": "high"
+  },
+  "allergens": {
+    "contains": [
+      "milk"
+    ],
+    "mayContain": []
+  },
+  "sources": [
+    {
+      "type": "user_report",
+      "id": "sw70zjv8yewi",
+      "name": "scan_barcode_contribution_report"
+    }
+  ],
+  "notes": [
+    "User-reported displayed severity was SAFE, but packaging ingredients show direct milk content.",
+    "Front packaging also says Just add milk, but classification is based on ingredient list on the packaging."
+  ],
+  "review": {
+    "reviewStatus": "approved",
+    "reviewedBy": "arcadone"
+  }
+}
