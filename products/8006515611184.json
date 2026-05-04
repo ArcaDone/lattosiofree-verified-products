@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "barcode": "8006515611184",
+  "productName": "Cappelletti alla carne",
+  "brands": [
+    "Le meraviglie di Adelaide"
+  ],
+  "language": "it",
+  "status": "verified",
+  "classification": {
+    "severity": "CONTAINS",
+    "reason": "milk ingredients found on packaging photo"
+  },
+  "signals": {
+    "contains": [
+      "siero di latte in polvere",
+      "formaggio Grana Padano DOP (latte)",
+      "aromi naturali (contengono latte)",
+      "milk"
+    ],
+    "traces": [
+      "soia",
+      "senape"
+    ],
+    "lactoseFree": []
+  },
+  "ingredients": {
+    "rawText": "Ingredienti: pasta fresca 64% (farina di grano tenero, semola di grano duro, uova 23%). Ripieno 36% (carni miste suine e bovine 34%, pangrattato (farina di grano tenero, acqua, olio di oliva, sale, lievito), olio di girasole, acqua, siero di latte in polvere, aromi naturali (contengono latte), cipolla, sale, formaggio Grana Padano DOP (latte) (contiene lisozima da uova), vino rosso, farina di grano tenero, spezie, aglio, piante aromatiche, prezzemolo). Puo contenere soia e senape.",
+    "sourceType": "packaging_photo_verified",
+    "sourceConfidence": "high"
+  },
+  "allergens": {
+    "contains": [
+      "frumento",
+      "uova",
+      "milk"
+    ],
+    "mayContain": [
+      "soia",
+      "senape"
+    ]
+  },
+  "sources": [
+    {
+      "type": "user_report",
+      "id": "e9sb8x9qwxys",
+      "name": "scan_barcode_not_found_contribution_report"
+    },
+    {
+      "type": "supporting_web_source",
+      "name": "Open Food Facts product page"
+    }
+  ],
+  "notes": [
+    "Barcode was not found by the scan flow, but packaging photos clearly identify the product and ingredients.",
+    "Packaging photo explicitly shows multiple direct milk ingredients."
+  ],
+  "review": {
+    "reviewStatus": "approved",
+    "reviewedBy": "arcadone"
+  }
+}

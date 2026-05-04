@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "barcode": "4056489964230",
+  "productName": "Valencianas",
+  "brands": [
+    "La Cestera"
+  ],
+  "language": "es",
+  "status": "verified",
+  "classification": {
+    "severity": "CONTAINS",
+    "reason": "milk ingredient found on packaging photo"
+  },
+  "signals": {
+    "contains": [
+      "suero de leche",
+      "milk"
+    ],
+    "traces": [
+      "mostaza",
+      "soja",
+      "frutos de cascara"
+    ],
+    "lactoseFree": []
+  },
+  "ingredients": {
+    "rawText": "Ingredientes: 30% harina de trigo, azucar, aceite refinado de girasol, 16% huevo liquido pasteurizado, humectante: sorbitol; suero de leche, gasificantes: difosfatos, carbonatos de sodio; dextrosa; corrector de acidez: acido citrico, conservador: sorbato potasico, aroma. Puede contener trazas de mostaza, soja y frutos de cascara.",
+    "sourceType": "packaging_photo_verified",
+    "sourceConfidence": "high"
+  },
+  "allergens": {
+    "contains": [
+      "trigo",
+      "huevo",
+      "milk"
+    ],
+    "mayContain": [
+      "mostaza",
+      "soja",
+      "frutos de cascara"
+    ]
+  },
+  "sources": [
+    {
+      "type": "user_report",
+      "id": "upzk7myi2gi0",
+      "name": "scan_barcode_contribution_report"
+    },
+    {
+      "type": "supporting_web_source",
+      "name": "Open Food Facts product images"
+    }
+  ],
+  "notes": [
+    "Displayed severity in the app was SAFE, but packaging ingredients show direct milk content.",
+    "User note about suero de leche matches the packaging photo."
+  ],
+  "review": {
+    "reviewStatus": "approved",
+    "reviewedBy": "arcadone"
+  }
+}
