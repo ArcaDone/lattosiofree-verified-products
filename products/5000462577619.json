@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "barcode": "5000462577619",
+  "productName": "Tesco Free From 6 Assorted Jam Tarts",
+  "brands": [
+    "Tesco"
+  ],
+  "language": "en",
+  "status": "verified",
+  "classification": {
+    "severity": "SAFE",
+    "reason": "milk-free claim found on packaging photo"
+  },
+  "signals": {
+    "contains": [],
+    "traces": [],
+    "lactoseFree": [
+      "milk free",
+      "no milk"
+    ]
+  },
+  "ingredients": {
+    "rawText": "Palm oil, apricot jam (14%) [glucose-fructose syrup, sugar, apricot puree, water, acidity regulators (citric acid, trisodium citrate), gelling agent (pectin), flavouring, preservative (potassium sorbate), colour (curcumin)], raspberry jam (14%) [glucose-fructose syrup, sugar, water, raspberry puree, acidity regulators (citric acid, trisodium citrate), gelling agent (pectin), colour (anthocyanins), flavouring, preservative (potassium sorbate)], blackcurrant jam (14%) [glucose-fructose syrup, sugar, water, concentrated apple juice, blackcurrant puree, colours (anthocyanins, curcumin), acidity regulators (citric acid, trisodium citrate), apple puree, gelling agent (pectin), flavouring, preservative (potassium sorbate)], rice flour, maize starch, potato starch, sugar, dextrose, maize flour, pasteurised egg, stabiliser (xanthan gum), raising agents (disodium diphosphate, potassium hydrogen carbonate), preservative (potassium sorbate), emulsifiers (polyglycerol esters of fatty acids, mono- and diglycerides of fatty acids), acidity regulator (potassium hydroxide). Allergy advice: For allergens, see ingredients in bold. Also, may contain peanuts and nuts.",
+    "sourceType": "packaging_photo_verified",
+    "sourceConfidence": "high"
+  },
+  "allergens": {
+    "contains": [
+      "egg"
+    ],
+    "mayContain": [
+      "peanuts",
+      "nuts"
+    ]
+  },
+  "sources": [
+    {
+      "type": "user_report",
+      "id": "p016z7wb1l3h",
+      "name": "scan_barcode_contribution_report"
+    },
+    {
+      "type": "supporting_web_source",
+      "name": "Open Food Facts product images"
+    }
+  ],
+  "notes": [
+    "Displayed severity in the app was CONTAINS, but the packaging states milk free and the ingredient list shows no direct milk ingredients.",
+    "Front packaging also states gluten free and wheat free."
+  ],
+  "review": {
+    "reviewStatus": "approved",
+    "reviewedBy": "arcadone"
+  }
+}
