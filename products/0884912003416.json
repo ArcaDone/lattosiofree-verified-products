@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "barcode": "0884912003416",
+  "productName": "Honey Bunches of Oats Granola Honey Roasted",
+  "brands": [
+    "Post"
+  ],
+  "language": "en",
+  "status": "supported",
+  "classification": {
+    "severity": "CONTAINS",
+    "reason": "milk ingredient found in user-provided ingredient list"
+  },
+  "signals": {
+    "contains": [
+      "whey (from milk)",
+      "milk",
+      "whey"
+    ],
+    "traces": [],
+    "lactoseFree": []
+  },
+  "ingredients": {
+    "rawText": "Whole grain rolled oats, brown sugar, whole grain wheat, whole grain rice, canola oil, corn syrup, whey (from milk), sugar, wildflower honey, caramel color, vitamins and minerals: niacinamide, reduced iron, zinc oxide (source of zinc), vitamin B6, vitamin A palmitate, riboflavin (vitamin B2), thiamin mononitrate (vitamin B1), folic acid, vitamin B12, vitamin D.",
+    "sourceType": "user_report",
+    "sourceConfidence": "medium"
+  },
+  "allergens": {
+    "contains": [
+      "milk",
+      "wheat"
+    ],
+    "mayContain": []
+  },
+  "sources": [
+    {
+      "type": "user_report",
+      "id": "talhqhbs6sb1",
+      "name": "scan_barcode_contribution_report"
+    }
+  ],
+  "notes": [
+    "Displayed severity in the app was CONTAINS, which matches the user-provided ingredient list.",
+    "Front photo identifies the product, but the ingredient photo does not clearly show the whey line, so this record remains supported rather than verified."
+  ],
+  "review": {
+    "reviewStatus": "needs_packaging_verification",
+    "reviewedBy": "arcadone"
+  }
+}
