@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "barcode": "8480010309997",
+  "productName": "Mix Seleccion cacahuetes, maices, almendras, anacardos y pistachos",
+  "brands": [
+    "Eroski"
+  ],
+  "language": "es",
+  "status": "verified",
+  "classification": {
+    "severity": "TRACES",
+    "reason": "may contain milk claim found on packaging photo"
+  },
+  "signals": {
+    "contains": [],
+    "traces": [
+      "leche",
+      "derivados de leche",
+      "lactosa",
+      "soja"
+    ],
+    "lactoseFree": []
+  },
+  "ingredients": {
+    "rawText": "Ingredientes: cacahuetes repelados fritos (46%) (cacahuetes, aceite refinado de girasol (4%), sal (2%)), maices fritos (30%) (maices, aceite refinado de girasol (9%), sal (1,7%)), almendras repeladas fritas (8%) (almendras, aceite refinado de girasol (4%), sal (2%)), anacardos fritos (8%) (anacardos, aceite refinado de girasol (4%), sal (2%)), pistachos mondados tostados (8%). Puede contener otros frutos de cascara, leche y derivados (incluida lactosa), soja y productos a base de soja.",
+    "sourceType": "packaging_photo_verified",
+    "sourceConfidence": "high"
+  },
+  "allergens": {
+    "contains": [
+      "cacahuetes",
+      "almendras",
+      "anacardos",
+      "pistachos"
+    ],
+    "mayContain": [
+      "otros frutos de cascara",
+      "leche",
+      "derivados de leche",
+      "lactosa",
+      "soja"
+    ]
+  },
+  "sources": [
+    {
+      "type": "user_report",
+      "id": "nib613ljv4ps",
+      "name": "scan_barcode_not_found_contribution_report"
+    }
+  ],
+  "notes": [
+    "Milk and lactose are listed only in the may-contain warning, not as direct ingredients.",
+    "Online review notes matched the packaging warning but the final classification is based on the packaging photo."
+  ],
+  "review": {
+    "reviewStatus": "approved",
+    "reviewedBy": "arcadone"
+  }
+}
