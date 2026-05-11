@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "barcode": "20122881",
+  "productName": "Drobenkovy kolac s visnovou naplni",
+  "brands": [
+    "Alpen Fest",
+    "Lidl"
+  ],
+  "language": "en",
+  "status": "supported",
+  "classification": {
+    "severity": "SAFE",
+    "reason": "no milk ingredients found in user-provided ingredient list"
+  },
+  "signals": {
+    "contains": [],
+    "traces": [],
+    "lactoseFree": []
+  },
+  "ingredients": {
+    "rawText": "30% cherry-based forage (sugar, 9% cherries, glucose-fructose syrup, humectant: glycerol, dextrose, gelling agent, pectin, acidifier: citric acid, acidity correctors: sodium citrates, calcium citrates, natural flavor), wheat flour, sugar, palm fat, whole egg, rapeseed oil, humectant: glycerol, rice flour, lifting powders: diphosphates, sodium carbonates, emulsifier: mono- and diglycerides of fatty acids, salt, acidity corrector: sodium acetates, acidifier: citric acid, natural flavor, turmeric.",
+    "sourceType": "user_report",
+    "sourceConfidence": "medium"
+  },
+  "allergens": {
+    "contains": [
+      "wheat flour",
+      "whole egg"
+    ],
+    "mayContain": []
+  },
+  "sources": [
+    {
+      "type": "user_report",
+      "id": "alqpcq0iq4ax",
+      "name": "scan_barcode_contribution_report"
+    }
+  ],
+  "notes": [
+    "Displayed severity in the app was SAFE, which matches the user-provided ingredient list.",
+    "Record remains supported because no explicit milk-free claim or clearly readable full packaging verification was available in this review."
+  ],
+  "review": {
+    "reviewStatus": "needs_packaging_verification",
+    "reviewedBy": "arcadone"
+  }
+}

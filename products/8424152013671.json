@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "barcode": "8424152013671",
+  "productName": "Empanada pollo setas",
+  "brands": [
+    "Europastry"
+  ],
+  "language": "es",
+  "status": "verified",
+  "classification": {
+    "severity": "CONTAINS",
+    "reason": "milk ingredients found on packaging photo"
+  },
+  "signals": {
+    "contains": [
+      "queso blanco pasteurizado extragraso",
+      "suero de mantequilla",
+      "leche",
+      "nata pasteurizada de vaca",
+      "lactosa",
+      "leche UHT entera",
+      "fermentos lacteos",
+      "milk"
+    ],
+    "traces": [
+      "sesamo",
+      "frutos de cascara y derivados",
+      "soja",
+      "sulfitos",
+      "apio",
+      "crustaceos",
+      "moluscos",
+      "pescado",
+      "mostaza",
+      "altramuces",
+      "cacahuetes"
+    ],
+    "lactoseFree": []
+  },
+  "ingredients": {
+    "rawText": "Ingredientes: harina de trigo (gluten), cebolla frita (cebolla, aceite de oliva virgen, sal, corrector de acidez (E330), espesantes (E415, E410, E412), dextrosa), carne de pollo (14%), queso blanco pasteurizado extragraso (suero de mantequilla (leche), leche, nata pasteurizada de vaca (leche), lactosa (leche), sal, estabilizante (E412), conservador (E200), fermentos lacteos), aceite vegetal (girasol), leche UHT entera, vino, seta cultivada (3%) (pleurotus ostreatus (seta de ostra)), agua, almidon de maiz, huevo liquido pasteurizado, sal (sal refinada), antiaglomerante (E535), azucar, fibra de trigo (gluten), ajo, ingrediente compuesto (harina de trigo (gluten)), pimienta blanca. Puede contener trazas de: sesamo, frutos de cascara y derivados, soja, sulfitos, apio, crustaceos, moluscos, pescado, mostaza, altramuces, cacahuetes.",
+    "sourceType": "packaging_photo_verified",
+    "sourceConfidence": "high"
+  },
+  "allergens": {
+    "contains": [
+      "milk",
+      "gluten",
+      "huevo"
+    ],
+    "mayContain": [
+      "sesamo",
+      "frutos de cascara y derivados",
+      "soja",
+      "sulfitos",
+      "apio",
+      "crustaceos",
+      "moluscos",
+      "pescado",
+      "mostaza",
+      "altramuces",
+      "cacahuetes"
+    ]
+  },
+  "sources": [
+    {
+      "type": "user_report",
+      "id": "g5x9lfvdjzwh",
+      "name": "scan_barcode_contribution_report"
+    },
+    {
+      "type": "supporting_web_source",
+      "name": "Open Food Facts product images"
+    }
+  ],
+  "notes": [
+    "Displayed severity in the app was SAFE, but the packaging photo shows multiple direct milk ingredients.",
+    "User note about leche, nata and queso matches the packaging photo."
+  ],
+  "review": {
+    "reviewStatus": "approved",
+    "reviewedBy": "arcadone"
+  }
+}
