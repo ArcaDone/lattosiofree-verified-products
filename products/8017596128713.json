@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "barcode": "8017596128713",
+  "productName": "Crema spalmabile alle nocciole",
+  "brands": [
+    "Eurospin"
+  ],
+  "language": "it",
+  "status": "verified",
+  "classification": {
+    "severity": "SAFE",
+    "reason": "milk-free claim found on packaging photo"
+  },
+  "signals": {
+    "contains": [],
+    "traces": [
+      "frutta a guscio"
+    ],
+    "lactoseFree": [
+      "senza latte"
+    ]
+  },
+  "ingredients": {
+    "rawText": "Ingredienti: zucchero, nocciole 18%, olio di semi di girasole, cacao magro in polvere 9%, burro di cacao, emulsionante: lecitine (soia), aroma. Puo contenere tracce di altra frutta a guscio.",
+    "sourceType": "packaging_photo_verified",
+    "sourceConfidence": "high"
+  },
+  "allergens": {
+    "contains": [
+      "nocciole",
+      "soia"
+    ],
+    "mayContain": [
+      "frutta a guscio"
+    ]
+  },
+  "sources": [
+    {
+      "type": "user_report",
+      "id": "4ns3x0xtb7tm",
+      "name": "scan_barcode_contribution_report"
+    },
+    {
+      "type": "supporting_web_source",
+      "name": "Open Food Facts product images"
+    }
+  ],
+  "notes": [
+    "Displayed severity in the app was CONTAINS, but the packaging states senza latte and the ingredient list shows no direct milk ingredients.",
+    "Front packaging also states senza glutine and senza olio di palma."
+  ],
+  "review": {
+    "reviewStatus": "approved",
+    "reviewedBy": "arcadone"
+  }
+}
