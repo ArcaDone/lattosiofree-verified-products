@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "barcode": "8003000565106",
+  "productName": "Ristorante Pizza al salame",
+  "brands": [
+    "Dr. Oetker",
+    "Cameo"
+  ],
+  "language": "it",
+  "status": "verified",
+  "classification": {
+    "severity": "CONTAINS",
+    "reason": "milk ingredients found on packaging photo"
+  },
+  "signals": {
+    "contains": [
+      "mozzarella (latte)",
+      "formaggio edam",
+      "fermenti lattici",
+      "milk"
+    ],
+    "traces": [
+      "soia",
+      "senape"
+    ],
+    "lactoseFree": []
+  },
+  "ingredients": {
+    "rawText": "Ingredienti: farina di grano tenero, salsa di pomodoro 21%, mozzarella 12% (latte, sale, caglio, fermenti lattici), salame affumicato 12% (carne suina, grasso suino, sale, spezie, destrosio, cipolla in polvere, aglio in polvere, estratti di spezie, stabilizzante (nitrito di sodio), antiossidante (estratti di rosmarino, ascorbato di sodio)), acqua, olio di colza, formaggio edam, lievito, sale, zucchero, destrosio, origano, basilico, spezie, prezzemolo. Puo contenere soia, senape.",
+    "sourceType": "packaging_photo_verified",
+    "sourceConfidence": "high"
+  },
+  "allergens": {
+    "contains": [
+      "milk",
+      "grano"
+    ],
+    "mayContain": [
+      "soia",
+      "senape"
+    ]
+  },
+  "sources": [
+    {
+      "type": "user_report",
+      "id": "i8jw1xuow98b",
+      "name": "scan_barcode_contribution_report"
+    },
+    {
+      "type": "supporting_web_source",
+      "name": "Open Food Facts front image"
+    }
+  ],
+  "notes": [
+    "Displayed severity in the app was SAFE, but the packaging photo shows direct milk ingredients.",
+    "Mozzarella (latte) and formaggio edam are both direct milk evidence."
+  ],
+  "review": {
+    "reviewStatus": "approved",
+    "reviewedBy": "arcadone"
+  }
+}
