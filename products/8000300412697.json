@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "barcode": "8000300412697",
+  "productName": "Latte con cioccolato senza lattosio",
+  "brands": [
+    "Nestle"
+  ],
+  "language": "it",
+  "status": "verified",
+  "classification": {
+    "severity": "SAFE",
+    "reason": "lactose-free claim found on packaging photo"
+  },
+  "signals": {
+    "contains": [
+      "latte",
+      "milk"
+    ],
+    "traces": [],
+    "lactoseFree": [
+      "senza lattosio",
+      "lattosio <0,1g/100ml",
+      "enzima lattasi"
+    ]
+  },
+  "ingredients": {
+    "rawText": "Bevanda a base di latte (1% di materia grassa) con cacao magro e vitamine, trattata termicamente con sistema UHT a lunga conservazione - senza lattosio. Origine del latte: Italia. Ingredienti: latte (1% di materia grassa), zucchero, cacao magro in polvere 1,5%, stabilizzanti E460-E466, vitamine (tiammina, D), addensante carragenina, sale, enzima lattasi, aromi naturali, cannella. Senza glutine. Lattosio <0,1g/100ml.",
+    "sourceType": "packaging_photo_verified",
+    "sourceConfidence": "high"
+  },
+  "allergens": {
+    "contains": [
+      "milk"
+    ],
+    "mayContain": []
+  },
+  "sources": [
+    {
+      "type": "user_report",
+      "id": "qh1lvrn2zw9f",
+      "name": "scan_barcode_contribution_report"
+    },
+    {
+      "type": "supporting_web_source",
+      "name": "Open Food Facts front image"
+    }
+  ],
+  "notes": [
+    "Displayed severity in the app was CONTAINS, but the packaging states senza lattosio and reports lattosio <0,1g/100ml.",
+    "Product contains milk as an allergen, but it is classified SAFE for the lactose-focused model because of the explicit lactose-free claim."
+  ],
+  "review": {
+    "reviewStatus": "approved",
+    "reviewedBy": "arcadone"
+  }
+}
