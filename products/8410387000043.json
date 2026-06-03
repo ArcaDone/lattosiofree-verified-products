@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "barcode": "8410387000043",
+  "productName": "Bizcocho",
+  "brands": [
+    "Montes Lara"
+  ],
+  "language": "es",
+  "status": "verified",
+  "classification": {
+    "severity": "CONTAINS",
+    "reason": "milk ingredient found on packaging photo"
+  },
+  "signals": {
+    "contains": [
+      "leche pasteurizada",
+      "milk"
+    ],
+    "traces": [
+      "mostaza",
+      "soja"
+    ],
+    "lactoseFree": []
+  },
+  "ingredients": {
+    "rawText": "Ingredientes: harina de trigo, azucar, huevo liquido pasteurizado, aceite refinado de girasol, humectantes (glicerol, sorbitol), leche pasteurizada, miel, jarabe de glucosa y fructosa, gasificantes (bicarbonato sodico, difosfato disodico), conservador E200, corrector de acidez E330 y aroma. Puede contener mostaza y soja.",
+    "sourceType": "packaging_photo_verified",
+    "sourceConfidence": "high"
+  },
+  "allergens": {
+    "contains": [
+      "milk",
+      "huevo",
+      "trigo"
+    ],
+    "mayContain": [
+      "mostaza",
+      "soja"
+    ]
+  },
+  "sources": [
+    {
+      "type": "user_report",
+      "id": "f1u0kxrg8zah",
+      "name": "scan_barcode_contribution_report"
+    },
+    {
+      "type": "supporting_web_source",
+      "name": "Open Food Facts product images"
+    }
+  ],
+  "notes": [
+    "Displayed severity in the app was SAFE, but the packaging photo shows direct milk content.",
+    "User note about tiene leche matches the packaging photo."
+  ],
+  "review": {
+    "reviewStatus": "approved",
+    "reviewedBy": "arcadone"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "barcode": "8007490051149",
+  "productName": "Tortellini con prosciutto crudo e parmigiano reggiano",
+  "brands": [
+    "FINI"
+  ],
+  "language": "it",
+  "status": "verified",
+  "classification": {
+    "severity": "SAFE",
+    "reason": "aged cheese only, with no lactose-specific ingredients found on packaging photo"
+  },
+  "signals": {
+    "contains": [],
+    "traces": [
+      "frutta a guscio",
+      "mandorle",
+      "pistacchi",
+      "soia",
+      "senape"
+    ],
+    "lactoseFree": []
+  },
+  "ingredients": {
+    "rawText": "Pasta fresca all'uovo con ripieno di prosciutto crudo e parmigiano reggiano. Ingredienti: Pasta 65%: farina di grano tenero 63%, uova 20%, semola di grano duro, acqua. Ripieno 35%: prosciutto crudo 38% (carne di suino, sale), pangrattato (farina di grano tenero, sale), carne brasata (carne suina, sale, fibra vegetale [pisello], cipolla in polvere), mortadella (carne di suino, sale, destrosio, aromi naturali), formaggio Parmigiano Reggiano DOP 12%, aroma naturale, sale, noce moscata. Puo contenere frutta a guscio (mandorle, pistacchi), soia e senape.",
+    "sourceType": "packaging_photo_verified",
+    "sourceConfidence": "high"
+  },
+  "allergens": {
+    "contains": [
+      "milk",
+      "grano",
+      "uova"
+    ],
+    "mayContain": [
+      "frutta a guscio",
+      "mandorle",
+      "pistacchi",
+      "soia",
+      "senape"
+    ]
+  },
+  "sources": [
+    {
+      "type": "user_report",
+      "id": "m8anbw5fuy2s",
+      "name": "scan_barcode_contribution_report"
+    }
+  ],
+  "notes": [
+    "Record reviewed with lactose-intolerance logic rather than milk-allergy logic.",
+    "Parmigiano Reggiano is the only dairy ingredient visible on the packaging, with no lactose-specific ingredients such as milk, whey, lactose, cream, or milk powder."
+  ],
+  "review": {
+    "reviewStatus": "approved",
+    "reviewedBy": "arcadone"
+  }
+}

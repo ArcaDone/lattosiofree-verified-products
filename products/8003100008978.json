@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "barcode": "8003100008978",
+  "productName": "Muffin con gocce di cioccolato classico",
+  "brands": [
+    "Selex"
+  ],
+  "language": "it",
+  "status": "verified",
+  "classification": {
+    "severity": "CONTAINS",
+    "reason": "milk ingredient found on packaging photo"
+  },
+  "signals": {
+    "contains": [
+      "yogurt",
+      "milk"
+    ],
+    "traces": [
+      "mandorle",
+      "nocciole",
+      "noci",
+      "pistacchi",
+      "senape",
+      "soia"
+    ],
+    "lactoseFree": []
+  },
+  "ingredients": {
+    "rawText": "Ingredienti: farina di grano tenero tipo 0, zucchero, olio di semi di girasole, uova 18%, gocce di cioccolato 8% (zucchero, pasta di cacao, burro di cacao, emulsionante: lecitine; aroma naturale. Cacao min. 46%), yogurt, agenti lievitanti: difosfato disodico, carbonato acido di sodio; emulsionanti: mono- e digliceridi degli acidi grassi, lecitina di girasole; addensante: gomma di guar; sale, aromi. Puo contenere mandorle, nocciole, noci, pistacchi, senape e soia.",
+    "sourceType": "packaging_photo_verified",
+    "sourceConfidence": "high"
+  },
+  "allergens": {
+    "contains": [
+      "milk",
+      "uova",
+      "grano"
+    ],
+    "mayContain": [
+      "mandorle",
+      "nocciole",
+      "noci",
+      "pistacchi",
+      "senape",
+      "soia"
+    ]
+  },
+  "sources": [
+    {
+      "type": "user_report",
+      "id": "grw5xm6a0ehr",
+      "name": "scan_barcode_not_found_contribution_report"
+    }
+  ],
+  "notes": [
+    "Barcode was not found by the scan flow, but the packaging photo clearly identifies the product and ingredients.",
+    "Milk evidence comes from yogurt listed directly in the ingredients."
+  ],
+  "review": {
+    "reviewStatus": "approved",
+    "reviewedBy": "arcadone"
+  }
+}
