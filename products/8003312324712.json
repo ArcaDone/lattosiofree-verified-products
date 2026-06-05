@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "barcode": "8003312324712",
+  "productName": "Cialda Ginseng",
+  "brands": [
+    "Caffe Condore"
+  ],
+  "language": "it",
+  "status": "verified",
+  "classification": {
+    "severity": "SAFE",
+    "reason": "no milk ingredients found on packaging photo"
+  },
+  "signals": {
+    "contains": [],
+    "traces": [],
+    "lactoseFree": []
+  },
+  "ingredients": {
+    "rawText": "Ingredienti: caffe tostato macinato 98%, aroma ginseng 2%.",
+    "sourceType": "packaging_photo_verified",
+    "sourceConfidence": "high"
+  },
+  "allergens": {
+    "contains": [],
+    "mayContain": []
+  },
+  "sources": [
+    {
+      "type": "user_report",
+      "id": "pr032gyyi93s",
+      "name": "scan_barcode_not_found_contribution_report"
+    }
+  ],
+  "notes": [
+    "Payload barcode 112751681305 does not match the barcode visible on the packaging photo.",
+    "Record created with the packaging barcode 8003312324712."
+  ],
+  "review": {
+    "reviewStatus": "approved",
+    "reviewedBy": "arcadone"
+  }
+}
