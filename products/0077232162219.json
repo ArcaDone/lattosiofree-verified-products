@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "barcode": "0077232162219",
+  "productName": "Yummy Chow",
+  "brands": [
+    "Palmer"
+  ],
+  "language": "en",
+  "status": "verified",
+  "classification": {
+    "severity": "CONTAINS",
+    "reason": "milk ingredient found on packaging photo"
+  },
+  "signals": {
+    "contains": [
+      "milk",
+      "white confectionery coating",
+      "whey powder",
+      "wheat biscuits with milk"
+    ],
+    "traces": [
+      "eggs",
+      "tree nuts"
+    ],
+    "lactoseFree": []
+  },
+  "ingredients": {
+    "rawText": "Ingredients: powdered sugar (sugar, cornstarch), corn biscuits (enriched flour, molasses, baking soda, mixed tocopherols [added to preserve freshness]), white confectionery coating (sugar, palm kernel oil, cocoa powder [processed with alkali], whey powder, soy lecithin [added as an emulsifier], salt, natural and artificial flavor), and/or dextrose, hydrogenated vegetable oils (rapeseed, cottonseed), wheat biscuits (whole grain wheat, sugar, salt, molasses, baking soda [added to preserve freshness]). Contains: milk, peanuts, soy and wheat. Manufactured and packaged in a facility where eggs and tree nuts are used.",
+    "sourceType": "packaging_photo_verified",
+    "sourceConfidence": "high"
+  },
+  "allergens": {
+    "contains": [
+      "milk",
+      "peanuts",
+      "soy",
+      "wheat"
+    ],
+    "mayContain": [
+      "eggs",
+      "tree nuts"
+    ]
+  },
+  "sources": [
+    {
+      "type": "user_report",
+      "id": "pi0oxc6fy876",
+      "name": "scan_barcode_contribution_report"
+    }
+  ],
+  "notes": [
+    "Displayed severity in the app was SAFE, but the packaging photo shows direct milk content.",
+    "Milk evidence comes from whey powder and the explicit contains statement."
+  ],
+  "review": {
+    "reviewStatus": "approved",
+    "reviewedBy": "arcadone"
+  }
+}
