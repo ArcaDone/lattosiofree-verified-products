@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "barcode": "5059321006579",
+  "productName": "Barretta Mandorle, Miele e Semi",
+  "brands": [
+    "Kellogg's"
+  ],
+  "language": "it",
+  "status": "verified",
+  "classification": {
+    "severity": "CONTAINS",
+    "reason": "milk ingredient found on packaging photo"
+  },
+  "signals": {
+    "contains": [
+      "latte condensato zuccherato",
+      "milk"
+    ],
+    "traces": [
+      "glutine da altri cereali",
+      "altra frutta a guscio"
+    ],
+    "lactoseFree": []
+  },
+  "ingredients": {
+    "rawText": "Ingredienti: arachidi tostate (34%), semi (15%) (girasole, lino, zucca), sciroppo di glucosio, avena integrale (10%), mandorle tostate (7%) (mandorle, sale), farina di riso, zucchero, miele (4%), fruttosio, olio di palma, destrosio, crusca di riso, umidificante (glicerolo), sale, melassa, latte condensato zuccherato (latte, zucchero), nocciole, anacardi, emulsionante (lecitina di soia), estratto di riso, estratto di rosmarino. Puo contenere glutine da altri cereali, altra frutta a guscio.",
+    "sourceType": "packaging_photo_verified",
+    "sourceConfidence": "high"
+  },
+  "allergens": {
+    "contains": [
+      "milk",
+      "arachidi",
+      "mandorle",
+      "nocciole",
+      "anacardi",
+      "soia",
+      "avena"
+    ],
+    "mayContain": [
+      "glutine da altri cereali",
+      "altra frutta a guscio"
+    ]
+  },
+  "sources": [
+    {
+      "type": "user_report",
+      "id": "prbqdyyktvkv",
+      "name": "scan_barcode_not_found_contribution_report"
+    }
+  ],
+  "notes": [
+    "Barcode was not found by the scan flow, but the packaging photo clearly identifies the product and ingredients.",
+    "Milk evidence comes from latte condensato zuccherato listed directly in the ingredients."
+  ],
+  "review": {
+    "reviewStatus": "approved",
+    "reviewedBy": "arcadone"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "barcode": "A986967521",
+  "productName": "Xamamina Reflusso",
+  "brands": [
+    "Xamamina"
+  ],
+  "language": "it",
+  "status": "verified",
+  "classification": {
+    "severity": "SAFE",
+    "reason": "lactose-free claim found on packaging photo"
+  },
+  "signals": {
+    "contains": [],
+    "traces": [],
+    "lactoseFree": [
+      "senza lattosio"
+    ]
+  },
+  "ingredients": {
+    "rawText": "Composizione: magnesio alginato, simeticone, fruttosio, gomma xanthan, miele, D-pantenolo, estratti fluidi di Althaea officinalis e Papaver rhoeas, zinco ossido, sodio bicarbonato, sodio idrossido, p-ossibenzoato di metile sodico, p-ossibenzoato di propile sodico, aromi naturali, eritrosina (E127), acqua depurata. Gusto uva fragola e frutti rossi. Senza glutine, senza lattosio.",
+    "sourceType": "packaging_photo_verified",
+    "sourceConfidence": "high"
+  },
+  "allergens": {
+    "contains": [],
+    "mayContain": []
+  },
+  "sources": [
+    {
+      "type": "user_report",
+      "id": "hybd0z5qvg27",
+      "name": "scan_barcode_not_found_contribution_report"
+    }
+  ],
+  "notes": [
+    "Payload barcode 37VH1 does not match the code visible on the packaging photo.",
+    "Record created with the packaging code A986967521."
+  ],
+  "review": {
+    "reviewStatus": "approved",
+    "reviewedBy": "arcadone"
+  }
+}
