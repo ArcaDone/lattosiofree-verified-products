@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "barcode": "5059319033136",
+  "productName": "Fiocchi di frumento integrale",
+  "brands": [
+    "Kellogg's"
+  ],
+  "language": "it",
+  "status": "supported",
+  "classification": {
+    "severity": "SAFE",
+    "reason": "no milk ingredients found in user-provided ingredient list"
+  },
+  "signals": {
+    "contains": [],
+    "traces": [
+      "soia"
+    ],
+    "lactoseFree": []
+  },
+  "ingredients": {
+    "rawText": "Frumento integrale (59%), crusca di frumento (18%), farina di frumento integrale, zucchero, estratto di malto d'orzo, sciroppo di glucosio, sale, aroma naturale, niacina, ferro, vitamina B6, riboflavina, tiammina, acido folico, vitamina D, vitamina B12. Per gli allergeni vedi ingredienti in grassetto. Puo contenere glutine da altri cereali, soia.",
+    "sourceType": "user_report",
+    "sourceConfidence": "medium"
+  },
+  "allergens": {
+    "contains": [
+      "frumento",
+      "orzo"
+    ],
+    "mayContain": [
+      "soia",
+      "glutine da altri cereali"
+    ]
+  },
+  "sources": [
+    {
+      "type": "user_report",
+      "id": "ipepk3ytefbr",
+      "name": "scan_barcode_contribution_report"
+    }
+  ],
+  "notes": [
+    "Displayed severity in the app was SAFE, which matches the user-provided ingredient list.",
+    "No milk, lactose, whey, cream, yogurt, or milk powder were identified in the reported ingredients."
+  ],
+  "review": {
+    "reviewStatus": "needs_packaging_verification",
+    "reviewedBy": "arcadone"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "barcode": "4056489798071",
+  "productName": "Preparato solubile per cappuccino",
+  "brands": [
+    "Bellarom"
+  ],
+  "language": "it",
+  "status": "verified",
+  "classification": {
+    "severity": "CONTAINS",
+    "reason": "milk ingredient found on packaging photo"
+  },
+  "signals": {
+    "contains": [
+      "latte scremato in polvere",
+      "milk"
+    ],
+    "traces": [],
+    "lactoseFree": []
+  },
+  "ingredients": {
+    "rawText": "Ingredienti: 29% latte scremato in polvere, 25% zucchero, sciroppo di glucosio, 16% caffe (15% caffe solubile, 1% caffe tostato e finemente macinato), grasso di cocco, stabilizzante: fosfati di sodio. Riferito al prodotto finito.",
+    "sourceType": "packaging_photo_verified",
+    "sourceConfidence": "high"
+  },
+  "allergens": {
+    "contains": [
+      "milk"
+    ],
+    "mayContain": []
+  },
+  "sources": [
+    {
+      "type": "user_report",
+      "id": "9ghnqylacgg7",
+      "name": "scan_barcode_contribution_report"
+    }
+  ],
+  "notes": [
+    "Displayed severity in the app was SAFE, but the packaging photo shows direct milk content.",
+    "User note about latte scremato in polvere matches the packaging photo."
+  ],
+  "review": {
+    "reviewStatus": "approved",
+    "reviewedBy": "arcadone"
+  }
+}

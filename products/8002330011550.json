@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "barcode": "8002330011550",
+  "productName": "Grana Padano Esselunga",
+  "brands": [
+    "Esselunga"
+  ],
+  "language": "it",
+  "status": "verified",
+  "classification": {
+    "severity": "SAFE",
+    "reason": "lactose-free claim found on packaging photo"
+  },
+  "signals": {
+    "contains": [],
+    "traces": [],
+    "lactoseFree": [
+      "naturalmente privo di lattosio",
+      "lattosio < 0,01 g/100 g"
+    ]
+  },
+  "ingredients": {
+    "rawText": "Ingredienti: latte, sale, caglio, conservante: lisozima da uovo. Naturalmente privo di lattosio come conseguenza del naturale processo di produzione del Grana Padano DOP. Galattosio inferiore a 10 mg/100 g. Lattosio < 0,01 g/100 g.",
+    "sourceType": "packaging_photo_verified",
+    "sourceConfidence": "high"
+  },
+  "allergens": {
+    "contains": [
+      "milk",
+      "uovo"
+    ],
+    "mayContain": []
+  },
+  "sources": [
+    {
+      "type": "user_report",
+      "id": "wv99rnd60cs2",
+      "name": "scan_barcode_contribution_report"
+    }
+  ],
+  "notes": [
+    "Displayed severity in the app was CONTAINS, but the packaging states that the product is naturally lactose-free.",
+    "Product contains milk as an allergen, but it is classified SAFE for the lactose-intolerance model because the packaging reports lattosio < 0,01 g/100 g."
+  ],
+  "review": {
+    "reviewStatus": "approved",
+    "reviewedBy": "arcadone"
+  }
+}

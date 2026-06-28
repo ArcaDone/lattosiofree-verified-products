@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "barcode": "4068263068331",
+  "productName": "Mini Cookies con pepitas de chocolate",
+  "brands": [
+    "Biscotto"
+  ],
+  "language": "es",
+  "status": "verified",
+  "classification": {
+    "severity": "CONTAINS",
+    "reason": "milk ingredient found on packaging photo"
+  },
+  "signals": {
+    "contains": [
+      "suero de leche en polvo",
+      "milk"
+    ],
+    "traces": [
+      "mostaza",
+      "sulfitos"
+    ],
+    "lactoseFree": []
+  },
+  "ingredients": {
+    "rawText": "Ingredientes: harina de trigo, chips de chocolate (azucar, pasta de cacao, dextrosa, manteca de cacao, emulgente (lecitina de soja)) 25%, azucar, aceite refinado de girasol alto oleico, jarabe de glucosa y fructosa, sal, suero de leche en polvo, gasificantes (carbonatos de amonio, carbonatos de sodio), aroma natural, emulgente (lecitina de girasol). Puede contener trazas de mostaza y sulfitos.",
+    "sourceType": "packaging_photo_verified",
+    "sourceConfidence": "high"
+  },
+  "allergens": {
+    "contains": [
+      "milk",
+      "trigo",
+      "soja"
+    ],
+    "mayContain": [
+      "mostaza",
+      "sulfitos"
+    ]
+  },
+  "sources": [
+    {
+      "type": "user_report",
+      "id": "ljo7ymvv1005",
+      "name": "scan_barcode_not_found_contribution_report"
+    }
+  ],
+  "notes": [
+    "Barcode was not found by the scan flow, but the packaging photo clearly identifies the product and ingredients.",
+    "User note about suero de leche en polvo matches the packaging photo."
+  ],
+  "review": {
+    "reviewStatus": "approved",
+    "reviewedBy": "arcadone"
+  }
+}
