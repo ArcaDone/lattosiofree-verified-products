@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "barcode": "4056489300786",
+  "productName": "Knusper Musli Schoko",
+  "brands": [
+    "Crownfield"
+  ],
+  "language": "de",
+  "status": "verified",
+  "classification": {
+    "severity": "CONTAINS",
+    "reason": "milk ingredients found on packaging photo"
+  },
+  "signals": {
+    "contains": [
+      "cioccolato al latte",
+      "latte intero in polvere",
+      "milk"
+    ],
+    "traces": [
+      "altri cereali contenenti glutine",
+      "arachidi",
+      "frutta a guscio",
+      "mandorle",
+      "nocciole",
+      "noci di acagiu",
+      "noci di pecan",
+      "noci del brasile",
+      "pistacchi",
+      "noci macadamia",
+      "soia",
+      "sesamo",
+      "senape",
+      "lupini"
+    ],
+    "lactoseFree": []
+  },
+  "ingredients": {
+    "rawText": "Ingredienti: 44% fiocchi di avena integrale, 9% cioccolato fondente a pezzetti (pasta di cacao, zucchero di canna, burro di cacao), emulsionante (lecitine), sciroppo di glucosio, 6% fiocchi di frumento integrale, olio di girasole, zucchero di canna, farina di mais, cocco grattugiato, farina di riso, grano duro, miele, 2% cioccolato al latte a pezzetti (zucchero, pasta di cacao, latte intero in polvere, burro di cacao, emulsionante: lecitine), farina di frumento, sale marino, estratto di malto d'orzo. Puo contenere altri cereali contenenti glutine, arachidi, frutta a guscio (mandorle, nocciole, noci di acagiu, noci di pecan, noci del Brasile, pistacchi, noci macadamia), soia, sesamo, senape e lupini.",
+    "sourceType": "packaging_photo_verified",
+    "sourceConfidence": "high"
+  },
+  "allergens": {
+    "contains": [
+      "milk",
+      "gluten"
+    ],
+    "mayContain": [
+      "altri cereali contenenti glutine",
+      "arachidi",
+      "frutta a guscio",
+      "mandorle",
+      "nocciole",
+      "noci di acagiu",
+      "noci di pecan",
+      "noci del brasile",
+      "pistacchi",
+      "noci macadamia",
+      "soia",
+      "sesamo",
+      "senape",
+      "lupini"
+    ]
+  },
+  "sources": [
+    {
+      "type": "user_report",
+      "id": "r96gd9f76xjh",
+      "name": "scan_barcode_contribution_report"
+    }
+  ],
+  "notes": [
+    "Displayed severity in the app was SAFE, but the packaging photo shows direct milk ingredients.",
+    "Milk evidence comes from milk chocolate pieces and whole milk powder."
+  ],
+  "review": {
+    "reviewStatus": "approved",
+    "reviewedBy": "arcadone"
+  }
+}

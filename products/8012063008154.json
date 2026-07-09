@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "barcode": "8012063008154",
+  "productName": "Meringata",
+  "brands": [
+    "Dolci dell'Italia",
+    "Pasticceria Veneta"
+  ],
+  "language": "it",
+  "status": "verified",
+  "classification": {
+    "severity": "CONTAINS",
+    "reason": "milk ingredients found on packaging photo"
+  },
+  "signals": {
+    "contains": [
+      "latte intero",
+      "panna",
+      "latte scremato in polvere",
+      "burro concentrato anidro",
+      "milk"
+    ],
+    "traces": [
+      "frutta a guscio",
+      "noci",
+      "nocciole",
+      "pistacchi",
+      "mandorle",
+      "frumento (glutine)"
+    ],
+    "lactoseFree": []
+  },
+  "ingredients": {
+    "rawText": "Ingredienti: meringa 32% [zucchero, amido di mais, albume d'uovo in polvere, aroma naturale], acqua, olio vegetale (cocco), latte intero, panna, 15% di crema al burro [zucchero, oli e grassi vegetali (palmisti, cocco), sciroppo di glucosio, fruttosio, latte scremato in polvere, burro concentrato anidro, emulsionanti: E460, E401, fibre vegetali (patata, piantaggine), sale, aromi naturali, stabilizzanti: E466, E516, E450, E407, correttori di acidita: E331, E340]. Puo contenere frutta a guscio (noci, nocciole, pistacchi, mandorle), frumento (glutine).",
+    "sourceType": "packaging_photo_verified",
+    "sourceConfidence": "high"
+  },
+  "allergens": {
+    "contains": [
+      "milk",
+      "uovo"
+    ],
+    "mayContain": [
+      "frutta a guscio",
+      "noci",
+      "nocciole",
+      "pistacchi",
+      "mandorle",
+      "frumento (glutine)"
+    ]
+  },
+  "sources": [
+    {
+      "type": "user_report",
+      "id": "2sirv302w9ri",
+      "name": "scan_barcode_contribution_report"
+    }
+  ],
+  "notes": [
+    "Displayed severity in the app was SAFE, but the packaging photo shows multiple direct milk ingredients.",
+    "Milk evidence comes from latte intero, panna, latte scremato in polvere and burro concentrato anidro."
+  ],
+  "review": {
+    "reviewStatus": "approved",
+    "reviewedBy": "arcadone"
+  }
+}

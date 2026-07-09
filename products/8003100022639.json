@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "barcode": "8003100022639",
+  "productName": "Croccanti filetti di merluzzo",
+  "brands": [
+    "Selex"
+  ],
+  "language": "it",
+  "status": "verified",
+  "classification": {
+    "severity": "TRACES",
+    "reason": "may contain milk claim found on packaging photo"
+  },
+  "signals": {
+    "contains": [],
+    "traces": [
+      "latte",
+      "crostacei",
+      "uova",
+      "soia",
+      "sedano",
+      "senape"
+    ],
+    "lactoseFree": []
+  },
+  "ingredients": {
+    "rawText": "Ingredienti: filetti di merluzzo 67%, pangrattato (farina di grano tenero, destrosio, sale, lievito, paprika, curcuma, olio di semi di girasole), olio di semi di girasole, farina di grano tenero, acqua, amido di patate, sale. Puo contenere crostacei, uova, soia, latte, sedano, senape.",
+    "sourceType": "packaging_photo_verified",
+    "sourceConfidence": "high"
+  },
+  "allergens": {
+    "contains": [
+      "merluzzo",
+      "grano"
+    ],
+    "mayContain": [
+      "crostacei",
+      "uova",
+      "soia",
+      "latte",
+      "sedano",
+      "senape"
+    ]
+  },
+  "sources": [
+    {
+      "type": "user_report",
+      "id": "w6m9uaa5hg6k",
+      "name": "scan_barcode_not_found_contribution_report"
+    }
+  ],
+  "notes": [
+    "Milk is listed only in the may-contain warning, not as a direct ingredient.",
+    "Barcode was not found by the scan flow, but the packaging photo clearly identifies the product and ingredients."
+  ],
+  "review": {
+    "reviewStatus": "approved",
+    "reviewedBy": "arcadone"
+  }
+}

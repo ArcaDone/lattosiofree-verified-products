@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "barcode": "843837040083",
+  "productName": "Chorizo Herradura",
+  "brands": [
+    "Melgar"
+  ],
+  "language": "es",
+  "status": "verified",
+  "classification": {
+    "severity": "SAFE",
+    "reason": "no milk ingredients found on packaging photo"
+  },
+  "signals": {
+    "contains": [],
+    "traces": [],
+    "lactoseFree": []
+  },
+  "ingredients": {
+    "rawText": "Ingredientes: panceta y magro de cerdo, sal, pimenton, proteina vegetal, dextrosa, especias, aromas, antioxidantes E-331 y E-301, conservador E-262 y colorante E-120. Producto sin alergenos.",
+    "sourceType": "packaging_photo_verified",
+    "sourceConfidence": "medium"
+  },
+  "allergens": {
+    "contains": [],
+    "mayContain": []
+  },
+  "sources": [
+    {
+      "type": "user_report",
+      "id": "544kn824crbp",
+      "name": "scan_barcode_not_found_contribution_report"
+    }
+  ],
+  "notes": [
+    "Payload barcode 446447050053 does not match the code visible on the packaging photo.",
+    "Record created with the packaging barcode 843837040083 read from the photo.",
+    "The packaging text states producto sin alergenos and no milk-related ingredients were identified."
+  ],
+  "review": {
+    "reviewStatus": "approved",
+    "reviewedBy": "arcadone"
+  }
+}
