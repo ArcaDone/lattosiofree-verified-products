@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "barcode": "8410061001168",
+  "productName": "Barbadillo Vi Moscato Frizzante",
+  "brands": [
+    "Barbadillo"
+  ],
+  "language": "es",
+  "status": "verified",
+  "classification": {
+    "severity": "SAFE",
+    "reason": "no milk ingredients found on packaging photo"
+  },
+  "signals": {
+    "contains": [],
+    "traces": [],
+    "lactoseFree": []
+  },
+  "ingredients": {
+    "rawText": "Mosto de uva parcialmente fermentado. 100% uva moscatel. Low alcohol 6,5% vol.",
+    "sourceType": "packaging_photo_verified",
+    "sourceConfidence": "high"
+  },
+  "allergens": {
+    "contains": [],
+    "mayContain": []
+  },
+  "sources": [
+    {
+      "type": "user_report",
+      "id": "88vg20tsynmb",
+      "name": "scan_barcode_not_found_contribution_report"
+    }
+  ],
+  "notes": [
+    "Barcode was not found by the scan flow, but the packaging photos identify the product.",
+    "No milk, lactose, whey, cream, yogurt, or milk powder were identified on the packaging."
+  ],
+  "review": {
+    "reviewStatus": "approved",
+    "reviewedBy": "arcadone"
+  }
+}

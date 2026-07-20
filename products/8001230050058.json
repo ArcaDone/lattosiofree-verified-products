@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "barcode": "8001230050058",
+  "productName": "Parmigiano Reggiano",
+  "brands": [
+    "Giovanni Ferrari",
+    "Ferrari"
+  ],
+  "language": "it",
+  "status": "verified",
+  "classification": {
+    "severity": "SAFE",
+    "reason": "lactose-free claim found on packaging photo"
+  },
+  "signals": {
+    "contains": [],
+    "traces": [],
+    "lactoseFree": [
+      "naturalmente privo di lattosio",
+      "lattosio inferiore a 0,01 g/100 g"
+    ]
+  },
+  "ingredients": {
+    "rawText": "Ingredienti: latte, sale, caglio. Il Parmigiano Reggiano e naturalmente privo di lattosio. L'assenza di lattosio e conseguenza del naturale processo di ottenimento del Parmigiano Reggiano. Contenuto di lattosio in quantita inferiore a 0,01 g/100 g.",
+    "sourceType": "packaging_photo_verified",
+    "sourceConfidence": "high"
+  },
+  "allergens": {
+    "contains": [
+      "milk"
+    ],
+    "mayContain": []
+  },
+  "sources": [
+    {
+      "type": "user_report",
+      "id": "ckx32hxu5mrb",
+      "name": "scan_barcode_contribution_report"
+    }
+  ],
+  "notes": [
+    "Displayed severity in the app was CONTAINS, but the packaging states that the product is naturally lactose-free.",
+    "Product contains milk as an allergen, but it is classified SAFE for the lactose-intolerance model because the packaging reports lactose below 0,01 g/100 g."
+  ],
+  "review": {
+    "reviewStatus": "approved",
+    "reviewedBy": "arcadone"
+  }
+}

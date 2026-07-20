@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "barcode": "5053990188819",
+  "productName": "Pringles Chips m. cheeseburgersmag",
+  "brands": [
+    "Pringles"
+  ],
+  "language": "es",
+  "status": "verified",
+  "classification": {
+    "severity": "CONTAINS",
+    "reason": "milk ingredients found on packaging photo"
+  },
+  "signals": {
+    "contains": [
+      "lactosa (leche)",
+      "leite em po (leite)",
+      "milk"
+    ],
+    "traces": [],
+    "lactoseFree": []
+  },
+  "ingredients": {
+    "rawText": "Producto de aperitivo frito con sabor a cheeseburger. Ingredientes: patatas deshidratadas, oleo de girassol/aceite de girasol, farinha de milho/harina de maiz, farinha de trigo/harina de trigo, condimento con sabor a cheeseburger (lactosa (leche), azucar, cebolla en polvo, dextrosa, cloruro de potasio, intensificadores de sabor, sal, extracto de levadura, correctores de acidez, aromas, especiarias/especias, leite em po (leite), harina de arroz, maltodextrina, emulgente (E471), aceite de colza, colorante).",
+    "sourceType": "packaging_photo_verified",
+    "sourceConfidence": "high"
+  },
+  "allergens": {
+    "contains": [
+      "milk",
+      "gluten"
+    ],
+    "mayContain": []
+  },
+  "sources": [
+    {
+      "type": "user_report",
+      "id": "0sazbjl2br1c",
+      "name": "scan_barcode_contribution_report"
+    }
+  ],
+  "notes": [
+    "Displayed severity in the app was SAFE, but the packaging photo shows direct milk ingredients.",
+    "Milk evidence comes from lactosa (leche) and milk powder."
+  ],
+  "review": {
+    "reviewStatus": "approved",
+    "reviewedBy": "arcadone"
+  }
+}

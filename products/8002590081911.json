@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "barcode": "8002590081911",
+  "productName": "Frollino con cereali e gocce di cioccolato senza latte e uova",
+  "brands": [
+    "Misura"
+  ],
+  "language": "it",
+  "status": "verified",
+  "classification": {
+    "severity": "SAFE",
+    "confidence": "high",
+    "reason": "La confezione riporta esplicitamente \"senza latte e uova\" / \"without milk and eggs\" / \"sans lait et sans oeufs\"."
+  },
+  "signals": {
+    "contains": [],
+    "traces": [],
+    "lactoseFree": [
+      "senza latte",
+      "without milk",
+      "sans lait"
+    ]
+  },
+  "ingredients": {
+    "rawText": "Frollino con cereali e gocce di cioccolato senza latte e uova. Biscuits with cereals and chocolate drops without milk and eggs. Biscuit aux cereales et aux pepites de chocolat sans lait et sans oeufs.",
+    "normalizedText": "frollino con cereali e gocce di cioccolato senza latte e uova",
+    "source": "packaging_photo"
+  },
+  "allergens": {
+    "contains": [],
+    "mayContain": []
+  },
+  "sources": [
+    {
+      "type": "packaging_photo_verified",
+      "description": "Foto confezione inviata dall'utente con claim senza latte e uova e barcode visibile."
+    },
+    {
+      "type": "user_report",
+      "description": "Report OCR zqv22s5je8xf: lactose_free_missed"
+    }
+  ],
+  "review": {
+    "status": "approved",
+    "reviewedAt": "2026-07-20",
+    "notes": "Il campo barcode del report era vuoto; il record usa il barcode visibile sulla confezione: 8002590081911. Classificazione per intolleranza al lattosio: SAFE."
+  }
+}
