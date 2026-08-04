@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "barcode": "8007735197694",
+  "productName": "Yogurt biologico intero da latte fieno STG senza lattosio - caramello",
+  "brands": [
+    "Cooperativa Latteria Vipiteno",
+    "Genossenschaft Milchhof Sterzing",
+    "Sterzing-Vipiteno",
+    "Yogurt Bio Vipiteno",
+    "Sterzing",
+    "Vipiteno"
+  ],
+  "language": "it",
+  "status": "verified",
+  "classification": {
+    "severity": "SAFE",
+    "reason": "lactose-free claim found on packaging photo"
+  },
+  "signals": {
+    "contains": [
+      "latte",
+      "yogurt",
+      "milk"
+    ],
+    "traces": [],
+    "lactoseFree": [
+      "senza lattosio",
+      "laktosefrei",
+      "scissione del lattosio"
+    ]
+  },
+  "ingredients": {
+    "rawText": "Yogurt biologico intero da latte fieno STG (80%) con caramello, senza lattosio. Yogurt intero 80% (latte* intero pastorizzato, fermenti lattici vivi), preparato al caramello 20% (zucchero*, sciroppo di zucchero caramellato* 3,4% sul totale, amido*, gelificante: pectina, sale, aroma naturale di caramello). Senza glutine. Contiene glucosio e galattosio in conseguenza della scissione del lattosio. * da agricoltura biologica.",
+    "sourceType": "packaging_photo_verified",
+    "sourceConfidence": "high"
+  },
+  "allergens": {
+    "contains": [
+      "milk"
+    ],
+    "mayContain": []
+  },
+  "sources": [
+    {
+      "type": "user_report",
+      "id": "lasl9okjfrky",
+      "name": "scan_barcode_contribution_report with packaging photo"
+    },
+    {
+      "type": "supporting_web_source",
+      "name": "Open Food Facts front image"
+    }
+  ],
+  "notes": [
+    "Displayed severity in the app was CONTAINS, but the packaging states senza lattosio.",
+    "Product contains milk as an allergen, but it is classified SAFE for the lactose-intolerance model because of the explicit lactose-free claim and the reported lactose-splitting note."
+  ],
+  "review": {
+    "reviewStatus": "approved",
+    "reviewedBy": "arcadone"
+  }
+}

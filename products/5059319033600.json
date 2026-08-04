@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "barcode": "5059319033600",
+  "productName": "Extra Granola Choco & Nuts",
+  "brands": [
+    "Kellogg's"
+  ],
+  "language": "it",
+  "status": "verified",
+  "classification": {
+    "severity": "CONTAINS",
+    "reason": "milk ingredient found on packaging photo"
+  },
+  "signals": {
+    "contains": [
+      "grassi del latte",
+      "milk"
+    ],
+    "traces": [
+      "glutine da altri cereali",
+      "altra frutta a guscio"
+    ],
+    "lactoseFree": []
+  },
+  "ingredients": {
+    "rawText": "Croccanti agglomerati di avena con cioccolato e nocciole. Ingredienti: avena integrale (47%), zucchero, olio di palma sostenibile certificato, pezzi di cioccolato (11%) (zucchero, pasta di cacao, burro di cacao, grassi vegetali (palma sostenibile certificato, karite) in proporzioni variabili, grassi del latte, emulsionante (lecitina di soia)), farina di frumento, nocciole (4%), sale, melassa, cocco essiccato, estratto di malto d'orzo. Per gli allergeni vedi ingredienti in grassetto. Puo contenere glutine da altri cereali, altra frutta a guscio.",
+    "sourceType": "packaging_photo_verified",
+    "sourceConfidence": "high"
+  },
+  "allergens": {
+    "contains": [
+      "avena",
+      "milk",
+      "soia",
+      "frumento",
+      "nocciole",
+      "orzo"
+    ],
+    "mayContain": [
+      "glutine da altri cereali",
+      "altra frutta a guscio"
+    ]
+  },
+  "sources": [
+    {
+      "type": "user_report",
+      "id": "hp48m7dzr78b",
+      "name": "scan_barcode_contribution_report with packaging photos"
+    },
+    {
+      "type": "supporting_web_source",
+      "name": "Open Food Facts front image"
+    }
+  ],
+  "notes": [
+    "Displayed severity in the app was SAFE, but the packaging photo shows grassi del latte in the chocolate pieces.",
+    "The user note correctly identified milk fat as direct milk evidence."
+  ],
+  "review": {
+    "reviewStatus": "approved",
+    "reviewedBy": "arcadone"
+  }
+}

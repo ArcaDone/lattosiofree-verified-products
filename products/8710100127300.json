@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "barcode": "8710100127300",
+  "productName": "Cruesli Chocolate",
+  "brands": [
+    "PepsiCo",
+    "Quaker"
+  ],
+  "language": "it",
+  "status": "verified",
+  "classification": {
+    "severity": "TRACES",
+    "reason": "may contain milk claim found on packaging photo"
+  },
+  "signals": {
+    "contains": [],
+    "traces": [
+      "latte",
+      "frutta a guscio"
+    ],
+    "lactoseFree": []
+  },
+  "ingredients": {
+    "rawText": "Fiocchi di cereali tostati croccanti con pezzi di cioccolato fondente e aroma naturale di mela al caramello. Ingredienti: fiocchi d'avena integrali (37%), cioccolato fondente (12%) (pasta di cacao 67%, zucchero, aroma naturale di vaniglia, lecitina di soia), olio di girasole, zucchero, fiocchi di grano integrale (9,6%), sciroppo di glucosio, farina di riso (2,2%), farina di grano (2,0%), cocco essiccato (1,8%), oligofruttosio, melassa, sale, cannella, aroma naturale di caramello alla mela e altri aromi naturali (contiene grano). Puo contenere latte e frutta a guscio.",
+    "sourceType": "packaging_photo_verified",
+    "sourceConfidence": "high"
+  },
+  "allergens": {
+    "contains": [
+      "avena",
+      "soia",
+      "grano"
+    ],
+    "mayContain": [
+      "latte",
+      "frutta a guscio"
+    ]
+  },
+  "sources": [
+    {
+      "type": "user_report",
+      "id": "gjdlv7fqg50l",
+      "name": "scan_barcode_contribution_report with packaging photos"
+    },
+    {
+      "type": "supporting_web_source",
+      "name": "Open Food Facts ingredients text"
+    }
+  ],
+  "notes": [
+    "Displayed severity in the app was SAFE, but the packaging photo shows 'Puo contenere latte e frutta a guscio'.",
+    "Milk is listed only in the may-contain warning, not as a direct ingredient."
+  ],
+  "review": {
+    "reviewStatus": "approved",
+    "reviewedBy": "arcadone"
+  }
+}
