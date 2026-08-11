@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "barcode": "8010883004172",
+  "productName": "Grana Padano DOP grattugiato fresco",
+  "brands": [
+    "Iperal",
+    "Colla"
+  ],
+  "language": "it",
+  "status": "verified",
+  "classification": {
+    "severity": "SAFE",
+    "reason": "lactose-free claim found on packaging photo"
+  },
+  "signals": {
+    "contains": [],
+    "traces": [],
+    "lactoseFree": [
+      "naturalmente privo di lattosio",
+      "galattosio inferiore a 10 mg per 100 g"
+    ]
+  },
+  "ingredients": {
+    "rawText": "Formaggio Grana Padano DOP grattugiato fresco. Ingredienti: latte, sale, caglio, conservante: lisozima da uovo. Naturalmente privo di lattosio come conseguenza del naturale processo di produzione del Grana Padano DOP. Contenuto in galattosio inferiore a 10 mg per 100 g.",
+    "sourceType": "packaging_photo_verified",
+    "sourceConfidence": "high"
+  },
+  "allergens": {
+    "contains": [
+      "milk",
+      "uovo"
+    ],
+    "mayContain": []
+  },
+  "sources": [
+    {
+      "type": "user_report",
+      "id": "pb0n41jr191w",
+      "name": "scan_barcode_contribution_report with packaging photos"
+    },
+    {
+      "type": "supporting_web_source",
+      "name": "Open Food Facts front image"
+    }
+  ],
+  "notes": [
+    "Displayed severity in the app was CONTAINS, but the packaging states naturalmente privo di lattosio.",
+    "Product contains milk as an allergen, but it is classified SAFE for the lactose-intolerance model because of the explicit lactose-free claim and galactose threshold note."
+  ],
+  "review": {
+    "reviewStatus": "approved",
+    "reviewedBy": "arcadone"
+  }
+}

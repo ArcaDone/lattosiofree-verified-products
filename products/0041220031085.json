@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "barcode": "0041220031085",
+  "productName": "Split Top Honey Wheat Enriched Bread",
+  "brands": [
+    "H-E-B"
+  ],
+  "language": "en",
+  "status": "verified",
+  "classification": {
+    "severity": "TRACES",
+    "reason": "facility processes milk claim found on packaging photo"
+  },
+  "signals": {
+    "contains": [],
+    "traces": [
+      "milk"
+    ],
+    "lactoseFree": []
+  },
+  "ingredients": {
+    "rawText": "Ingredients: enriched wheat flour (wheat flour, niacin, reduced iron, thiamine mononitrate, riboflavin and folic acid, malted barley flour), water, whole wheat flour, yeast, honey, sugar, wheat gluten, soybean oil, wheat bran, salt, molasses, cultured wheat flour, enzymes, potassium chloride, mono-and diglycerides, calcium sulfate, calcium phosphate, ammonium sulfate, sodium phosphate, monocalcium phosphate, natural flavor, sunflower lecithin. Contains: wheat. Made in a facility that processes milk, tree nuts and sesame.",
+    "sourceType": "packaging_photo_verified",
+    "sourceConfidence": "high"
+  },
+  "allergens": {
+    "contains": [
+      "wheat"
+    ],
+    "mayContain": [
+      "milk",
+      "tree nuts",
+      "sesame"
+    ]
+  },
+  "sources": [
+    {
+      "type": "user_report",
+      "id": "b2837yw50jmq",
+      "name": "scan_barcode_contribution_report with packaging photos"
+    },
+    {
+      "type": "supporting_web_source",
+      "name": "Open Food Facts ingredients image"
+    }
+  ],
+  "notes": [
+    "Displayed severity in the app was SAFE, but the packaging photo reports that the product is made in a facility that processes milk.",
+    "Milk is not listed as a direct ingredient; it appears only in the facility/processes warning.",
+    "The report label 'No gluten' conflicts with the packaging photo, which states Contains: Wheat."
+  ],
+  "review": {
+    "reviewStatus": "approved",
+    "reviewedBy": "arcadone"
+  }
+}

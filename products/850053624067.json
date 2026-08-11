@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "barcode": "850053624067",
+  "productName": "Chomplings Jalapeño Beef Mini Sticks",
+  "brands": [
+    "Chomps"
+  ],
+  "language": "en",
+  "status": "verified",
+  "classification": {
+    "severity": "SAFE",
+    "reason": "packaging photo states made without milk"
+  },
+  "signals": {
+    "contains": [],
+    "traces": [],
+    "lactoseFree": [
+      "free from top 9 allergens",
+      "made without milk"
+    ]
+  },
+  "ingredients": {
+    "rawText": "Jalapeno beef mini sticks made with grass-fed and grass-finished beef. Ingredients visible on packaging: grass-fed and finished beef, water, less than 2% of: lactic acid, sea salt, jalapeno peppers, cultured celery powder, cherry powder, black pepper, red pepper, coriander. Packaging states: Free from top 9 allergens (milk, egg, fish, crustacean shellfish, tree nuts, wheat, peanuts, soybean, and sesame). Made without: milk, egg, fish, crustacean shellfish, tree nuts, wheat, peanuts, soybean, and sesame.",
+    "sourceType": "packaging_photo_verified",
+    "sourceConfidence": "high"
+  },
+  "allergens": {
+    "contains": [],
+    "mayContain": []
+  },
+  "sources": [
+    {
+      "type": "user_report",
+      "id": "5fgydarmv8b4",
+      "name": "scan_ocr_contribution_report with packaging photos"
+    }
+  ],
+  "notes": [
+    "Payload barcode was empty; record created with UPC 850053624067 visible on the packaging photo.",
+    "Displayed severity in the app was SAFE, which matches the packaging claims.",
+    "The OCR text captured mostly front-package marketing copy and missed the clearer back-package allergen statements."
+  ],
+  "review": {
+    "reviewStatus": "approved",
+    "reviewedBy": "arcadone"
+  }
+}
