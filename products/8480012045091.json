@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "barcode": "8480012045091",
+  "productName": "Muesli Crujiente",
+  "brands": [
+    "Ifa Eliges"
+  ],
+  "language": "es",
+  "status": "verified",
+  "classification": {
+    "severity": "TRACES",
+    "reason": "may contain milk claim found on packaging photo"
+  },
+  "signals": {
+    "contains": [],
+    "traces": [
+      "leche",
+      "milk"
+    ],
+    "lactoseFree": []
+  },
+  "ingredients": {
+    "rawText": "Mezcla de cereales (copos de avena, trigo, maiz, arroz extrusionado y trigo extrusionado) con frutos secos. Ingredientes visibles: cereales (copos de avena integral (gluten) (51%), copos de trigo integral (gluten) (6,8%), harina de trigo (gluten) (5,1%), cereales extrusionados (4,8%) (harina de arroz, harina de trigo (gluten), azucar, harina de malta de trigo (gluten), sal, azucar caramelizado en polvo), copos de maiz (4,4%) (maiz, azucar, extracto de malta de cebada (gluten), sal, emulgente: mono- y digliceridos de acidos grasos), azucar, frutos secos (10%) (nueces pecanas, almendras, avellanas, nueces de Brasil), aceite de girasol, jarabe de glucosa, coco en polvo, caramelo (azucar, agua), aroma. Puede contener trazas de soja, leche y otros frutos de cascara.",
+    "sourceType": "packaging_photo_verified",
+    "sourceConfidence": "high"
+  },
+  "allergens": {
+    "contains": [
+      "avena",
+      "trigo",
+      "gluten",
+      "cebada",
+      "nueces pecanas",
+      "almendras",
+      "avellanas",
+      "nueces de Brasil"
+    ],
+    "mayContain": [
+      "soja",
+      "leche",
+      "otros frutos de cascara"
+    ]
+  },
+  "sources": [
+    {
+      "type": "user_report",
+      "id": "pw9ynl7op6lc",
+      "name": "scan_barcode_contribution_report with ingredients photo"
+    },
+    {
+      "type": "supporting_web_source",
+      "name": "Open Food Facts front image"
+    }
+  ],
+  "notes": [
+    "Displayed severity in the app was SAFE, but the packaging photo reports Puede contener trazas de soja, leche y otros frutos de cascara.",
+    "Milk is listed only in the may-contain warning, not as a direct ingredient.",
+    "Contribution did not include a front image; product identity is based on the barcode payload and Open Food Facts front image."
+  ],
+  "review": {
+    "reviewStatus": "approved",
+    "reviewedBy": "arcadone"
+  }
+}

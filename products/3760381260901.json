@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "barcode": "3760381260901",
+  "productName": "Mousline L'Originale puree de pommes de terre",
+  "brands": [
+    "Mousline"
+  ],
+  "language": "fr",
+  "status": "supported",
+  "classification": {
+    "severity": "TRACES",
+    "reason": "may contain milk claim found in manufacturer source"
+  },
+  "signals": {
+    "contains": [],
+    "traces": [
+      "lait",
+      "milk"
+    ],
+    "lactoseFree": []
+  },
+  "ingredients": {
+    "rawText": "Ingredients de la puree en flocons: pomme de terre 99%, curcuma, antioxydant: extraits de romarin, emulsifiant: mono- et diglyceride d'acides gras (origine vegetale). Peut contenir: LAIT.",
+    "sourceType": "manufacturer_source",
+    "sourceConfidence": "high"
+  },
+  "allergens": {
+    "contains": [],
+    "mayContain": [
+      "lait"
+    ]
+  },
+  "sources": [
+    {
+      "type": "user_report",
+      "id": "9j4ebmoqgswk",
+      "name": "scan_ocr_contribution_report with packaging photos"
+    },
+    {
+      "type": "manufacturer_source",
+      "name": "Mousline product page"
+    }
+  ],
+  "notes": [
+    "Payload barcode was empty; record created with code 3760381260901 found in the OCR analysis text.",
+    "Downloaded contribution images identify Mousline L'Originale but do not show a readable ingredient list.",
+    "Displayed severity in the app was SAFE, but the manufacturer source reports Peut contenir: LAIT.",
+    "Milk is listed only in the may-contain warning, not as a direct ingredient."
+  ],
+  "review": {
+    "reviewStatus": "needs_packaging_verification",
+    "reviewedBy": "arcadone"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "barcode": "8034066307386",
+  "productName": "Kefir Lampone e Melograno",
+  "brands": [
+    "Milk"
+  ],
+  "language": "it",
+  "status": "verified",
+  "classification": {
+    "severity": "SAFE",
+    "reason": "lactose-free claim found on packaging photo"
+  },
+  "signals": {
+    "contains": [
+      "kefir",
+      "milk"
+    ],
+    "traces": [],
+    "lactoseFree": [
+      "senza lattosio",
+      "inferiore a 0,1 g per 100 g",
+      "scissione del lattosio"
+    ]
+  },
+  "ingredients": {
+    "rawText": "Kefir senza lattosio (senza lattosio = inferiore a 0,1 g per 100 g) con lampone e succo di melograno. Senza lieviti. Ingredienti visibili: kefir senza lattosio con fermenti lattici, preparazione di frutta 20% (lamponi 30%, zucchero, succo di melograno da concentrato 15%, amido modificato, aroma naturale), zucchero. Senza glutine. Senza coloranti e conservanti aggiunti. Il prodotto contiene glucosio e galattosio in conseguenza della scissione del lattosio.",
+    "sourceType": "packaging_photo_verified",
+    "sourceConfidence": "high"
+  },
+  "allergens": {
+    "contains": [
+      "milk"
+    ],
+    "mayContain": []
+  },
+  "sources": [
+    {
+      "type": "user_report",
+      "id": "k5oczrw12qne",
+      "name": "scan_barcode_contribution_report with ingredients photo"
+    },
+    {
+      "type": "supporting_web_source",
+      "name": "Open Food Facts front image"
+    }
+  ],
+  "notes": [
+    "Displayed severity in the app was CONTAINS, but the packaging states senza lattosio and reports lactose below 0,1 g per 100 g.",
+    "Product contains milk as an allergen, but it is classified SAFE for the lactose-intolerance model because of the explicit lactose-free claim.",
+    "Contribution did not include a front image, but the ingredient photo shows the product text and lactose-free claim clearly."
+  ],
+  "review": {
+    "reviewStatus": "approved",
+    "reviewedBy": "arcadone"
+  }
+}
