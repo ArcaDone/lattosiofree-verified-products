@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "barcode": "8445291986596",
+  "productName": "El Manjar El de Siempre",
+  "brands": [
+    "Nestle"
+  ],
+  "language": "es",
+  "status": "verified",
+  "classification": {
+    "severity": "CONTAINS",
+    "reason": "milk listed in ingredients"
+  },
+  "signals": {
+    "contains": [
+      "leche",
+      "milk"
+    ],
+    "traces": [],
+    "lactoseFree": []
+  },
+  "ingredients": {
+    "rawText": "Leche, azúcar, agar, bicarbonato de sodio, fosfato disódico. Contiene Leche.",
+    "sourceType": "packaging_photo_verified",
+    "sourceConfidence": "high"
+  },
+  "allergens": {
+    "contains": [
+      "milk"
+    ],
+    "mayContain": []
+  },
+  "sources": [
+    {
+      "type": "user_report",
+      "id": "qawa7ebi7rrf",
+      "name": "scan_barcode_not_found_contribution_report with front and ingredients photos"
+    }
+  ],
+  "notes": [
+    "Open Food Facts returned product not found in the scan flow.",
+    "Submitted front photo shows Nestle El Manjar El de Siempre and the ingredients photo shows the milk ingredient and allergen statement.",
+    "No lactose-free claim is visible in the submitted photos."
+  ],
+  "review": {
+    "reviewStatus": "approved",
+    "reviewedBy": "arcadone"
+  }
+}

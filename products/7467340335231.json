@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "barcode": "7467340335231",
+  "productName": "Soda Crackers",
+  "brands": [
+    "Aviva"
+  ],
+  "language": "es",
+  "status": "verified",
+  "classification": {
+    "severity": "CONTAINS",
+    "reason": "whey milk listed in ingredients"
+  },
+  "signals": {
+    "contains": [
+      "suero de leche",
+      "whey (milk)",
+      "lactoserum",
+      "leche",
+      "milk"
+    ],
+    "traces": [],
+    "lactoseFree": []
+  },
+  "ingredients": {
+    "rawText": "Harina de trigo, grasa vegetal (palma), azúcar invertida, suero de leche, sal, azúcar, agente leudante (bicarbonato de sodio), levadura, enzimas (proteasa y amilasa). English ingredients visible on package: enriched wheat flour, vegetable shortening (palm), invert sugar, whey (milk), salt, sugar, leavening agent (sodium bicarbonate), yeast, enzymes. French ingredients visible on package: Farine de blé, matière grasse végétale (paume), sucre inversé, lactosérum, sel, sucre, poudre à lever (bicarbonate de sodium), levure, enzymes.",
+    "sourceType": "packaging_photo_verified",
+    "sourceConfidence": "high"
+  },
+  "allergens": {
+    "contains": [
+      "milk",
+      "wheat",
+      "gluten"
+    ],
+    "mayContain": []
+  },
+  "sources": [
+    {
+      "type": "user_report",
+      "id": "dm9b7aaikzuq",
+      "name": "scan_barcode_contribution_report with front and ingredients photos"
+    },
+    {
+      "type": "supporting_web_source",
+      "name": "Open Food Facts front and ingredients images"
+    }
+  ],
+  "notes": [
+    "Displayed severity in the app was CONTAINS and matches the reviewed packaging evidence.",
+    "The submitted ingredient photo shows direct milk evidence as suero de leche / whey (milk) / lactosérum.",
+    "The allergen statement on the package reports wheat and milk.",
+    "No lactose-free claim is visible in the submitted photos."
+  ],
+  "review": {
+    "reviewStatus": "approved",
+    "reviewedBy": "arcadone"
+  }
+}

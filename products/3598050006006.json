@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "barcode": "3598050006006",
+  "productName": "Creme glacee artisanale",
+  "brands": [
+    "Altiflore"
+  ],
+  "language": "fr",
+  "status": "verified",
+  "classification": {
+    "severity": "CONTAINS",
+    "reason": "ice cream claim found on packaging photo"
+  },
+  "signals": {
+    "contains": [
+      "creme glacee",
+      "cream",
+      "milk"
+    ],
+    "traces": [],
+    "lactoseFree": []
+  },
+  "ingredients": {
+    "rawText": "Visible packaging text: Creme glacee artisanale. Partial ingredient text is visible on the submitted photo, but the full ingredient list is not readable.",
+    "sourceType": "packaging_photo_verified",
+    "sourceConfidence": "high"
+  },
+  "allergens": {
+    "contains": [
+      "milk"
+    ],
+    "mayContain": []
+  },
+  "sources": [
+    {
+      "type": "user_report",
+      "id": "6ivbpzyfoegi",
+      "name": "scan_barcode_not_found_contribution_report with front photo"
+    }
+  ],
+  "notes": [
+    "Open Food Facts returned product not found at review time.",
+    "Submitted photo shows barcode 3598050006006 and a visible creme glacee artisanale claim.",
+    "No lactose-free claim is visible in the submitted photo.",
+    "Classified CONTAINS because creme glacee is direct dairy evidence, even though the complete ingredient list is not readable from the submitted image."
+  ],
+  "review": {
+    "reviewStatus": "approved",
+    "reviewedBy": "arcadone"
+  }
+}
